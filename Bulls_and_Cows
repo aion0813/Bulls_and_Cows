@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main() {
+    int buf[3] = {0, }; // 숫자 입력받을 배열 크기 : 3 
+    for(int i = 0; i < 3; i++) {
+        scanf("%1d", &buf[i]);
+    }
+    printf("num : %d, %d, %d", buf[0], buf[1], buf[2]);
+    return 0;
+}
